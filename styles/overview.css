@@ -1,0 +1,202 @@
+body{
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*----------Header----------*/
+header{
+    background-color: #023047;
+    position: static;
+    width: 100%;
+    padding-bottom: 0.5em;
+}
+.logo img{
+    width: 19em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.5em;
+}
+/*Header Navigation Bar*/
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+    width: 45em;
+}
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: calibri;
+    transition: color 0.3s ease;
+}
+nav a:hover{ 
+    color: #8ECAE6; 
+}
+nav li{
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: calibri;
+    display: inline-block;
+}
+.header-rule{
+    width: 45em;
+    margin: 0 auto;
+    margin-top: 0.1em;
+}
+
+
+/*----------Body Content----------*/
+.content{
+    display: flex;
+    margin: 1.5em 1.5em;
+    align-items: center;
+}
+/*Left Side*/
+.preview-image{
+    height: 25em;
+    width: 45%;
+    outline: 0.1em solid #666666;
+    padding: 0.5em;
+    position:relative
+}
+.preview-image img{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.reviews{
+    position: absolute;
+    right: 2%;
+    height: 3em;
+    width: 8em;
+    text-align: center;
+    font-family: calibri;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+.stars{
+    color: #FFB703;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*Right Side*/
+.right-column{
+    width: 50%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: calibri;
+}
+h2{
+    text-align: center;
+    margin: 0.1em auto;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: calibri;
+}
+
+.option-buttons{
+    display: flex;
+}
+.button{
+    width: 48%;
+    padding: 0.1em 0.1em;
+    margin: 0.3em auto;
+    outline: 0.1em solid #000000;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+.selected{
+    outline: 0.1em solid #FFB703;
+}
+
+.right-column fieldset{
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.not-extended{
+    height: 20em; /*Must be a numerical value for transition to work. Can't be auto*/
+}
+.extended{
+    height: 30em;
+}
+fieldset .extend-button{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: calibri;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(0,0,0,0));;
+}
+
+.purchase-button{
+    background-color: #FFB703;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: calibri;
+    outline: 0.1em solid #000000;
+    height: 2em;
+    width: auto;
+    margin: 0.5em auto;
+    transition-duration: 0.3s;
+    display: block;
+}
+.purchase-button:hover{
+    background-color: #c78f00;
+}
+
+
+/*----------Footer----------*/
+footer{
+    background-color: #023047;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 0.2em;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer-links img{
+    width: 2em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em;
+}
+.footer-rule{
+    flex: 0.15; 
+    height: 0;
+    border: 0.01em solid #8ECAE6;
+    margin: 0;
+}
+
