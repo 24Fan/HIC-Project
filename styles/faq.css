@@ -1,0 +1,41 @@
+/* FAQ Stylesheet */
+
+h1 {
+    padding-top: .25em; 
+    padding-bottom: .5em; 
+    text-align: center; 
+    font-size: 3.5em; 
+    margin: 0;
+}
+
+table { 
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    width: 85%; 
+} 
+  
+th, td { 
+    text-align: left; 
+    font-size: xx-large;
+    padding: 8px; 
+    cursor: pointer;
+} 
+  
+tr:nth-child(even) { 
+    background-color: rgb(235, 235, 235); 
+} 
+
+summary {list-style: none}
+summary::-webkit-details-marker {display: none; }
+
+details summary::before { 
+    content:url('../images/Arrow-right.svg')
+    /* you can style it however you want, use background-image for example */
+}
+
+/* By using [open] we can define different styles when the disclosure widget is open */
+details[open] summary::before {
+    content:url('../images/Arrow-down.svg'); 
+
+}
