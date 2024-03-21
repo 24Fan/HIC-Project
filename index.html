@@ -1,16 +1,95 @@
-<!-- Our Index Page -->
+<!-- Overview Page / Index-->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Test Index</title>
-        <link rel="stylesheet" href="styles/global.css">
-    </head>
-    <body>
-        <h1>Template Index</h1>
-        <p></p>
-    </body>
+<html lang="en-US">
+<head>
+    <title>Snapshop - Overview</title>
+    <link rel="stylesheet" type="text/css" href="styles/overview.css">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo_snapshop.svg" alt="Snapshop Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li>|</li>
+                <li><a href="pages/faq.html">FAQ</a></li>
+                <li>|</li>
+                <li><a href="pages/photos.html">Photos</a></li>
+                <li>|</li>
+                <li><a href="pages/demo.html">Demo</a></li>
+                <li>|</li>
+                <li><a href="pages/reviews.html">Reviews</a></li>
+                <li>|</li>
+                <li><a href="pages/documentation.html">Documentation</a></li>
+                <li>|</li>
+                <li><a href="pages/purchase.html">Purchase</a></li>
+                <li>|</li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+            <hr class="header-rule">
+        </nav>
+    </header>
+    <div class="content">
+        <div class="preview-image">
+            <a href="#">
+                <img id="preview-image" src="images/image_body_front.png"  alt="Camera Body Front View">
+            </a>
+        </div>     
+        <div class="right-column">
+            <a class="reviews" href="#">
+                <div class="stars">
+                    &#9733; &#9733; &#9733; &#9733; &#9734;
+                </div>
+                Reviews
+            </a>
+            <h1>Canon EOS RP</h1>
+            <h2>$1299.00</h2>
+            <div class="option-buttons">
+                <div class="button selected" id="body-only">Body Only</div>
+                <div class="button" id="body-extra">Body With RF24-105mm F4-7.1 IS STM Lens Kit </div>
+            </div>
+            <fieldset class="not-extended" id="extend-field">
+                <legend>Product Details</legend>
+                <ul>
+                    <li>Detail 1</li>
+                    <li>Detail 2</li>
+                    <li>Detail 3</li>
+                    <li>Detail 4</li>
+                    <li>Detail 5</li>
+                    <li>Detail 6</li>
+                    <li>Detail 7</li>
+                    <li>Detail 8</li>
+                    <li>Detail 9</li>
+                    <li>Detail 10</li>
+                    <li>Detail 11</li>
+                </ul>
+                <div class="extend-button" id="extend-button">
+                    •••
+                </div>
+            </fieldset>
+            <a class="purchase-button" href="#">
+                Purchase Now
+            </a>
+        </div>
+    </div>
     <footer>
-        <!-- Social media information and extras -->
+        <div class="footer-links">
+            <hr class = "footer-rule">
+            <a href="#"><img src="images/logo_facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="images/logo_instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="images/logo_twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="images/logo_linkedin.svg" alt="Linkedin"></a>
+            <a href="#"><img src="images/logo_youtube.svg" alt="Youtube"></a>
+            <hr class = "footer-rule">
+        </div>
     </footer>
+    <script src="javascript/overview.js"></script>
+</body>
 </html>

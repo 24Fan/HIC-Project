@@ -134,10 +134,10 @@ h2{
     transition: height 0.5s;
 }
 .not-extended{
-    height: 20em; /*Must be a numerical value for transition to work. Can't be auto*/
+    height: 15em; /*Must be a numerical value for transition to work. Can't be auto*/
 }
 .extended{
-    height: 30em;
+    height: 25em;
 }
 fieldset .extend-button{
     text-align: center;
@@ -175,6 +175,7 @@ fieldset .extend-button{
 
 /*----------Footer----------*/
 footer{
+    position: absolute;
     background-color: #023047;
     bottom: 0;
     left: 0;
@@ -199,5 +200,41 @@ footer{
     height: 0;
     border: 0.01em solid #8ECAE6;
     margin: 0;
+}
+
+/* End of Overview Styles*/
+/* Start of FAQ Styles */
+
+table { 
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    width: 85%; 
+} 
+  
+th, td { 
+    text-align: left; 
+    font-size: xx-large;
+    font-family: calibri;
+    padding: 8px; 
+    cursor: pointer;
+} 
+  
+tr:nth-child(even) { 
+    background-color: rgb(235, 235, 235); 
+} 
+
+summary {list-style: none}
+summary::-webkit-details-marker {display: none; }
+
+details summary::before { 
+    content:url('../images/Arrow-right.svg')
+    /* you can style it however you want, use background-image for example */
+}
+
+/* By using [open] we can define different styles when the disclosure widget is open */
+details[open] summary::before {
+    content:url('../images/Arrow-down.svg'); 
+
 }
 
