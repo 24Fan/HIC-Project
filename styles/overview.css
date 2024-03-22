@@ -3,9 +3,9 @@
 .content{
     display: flex;
     margin: 1.5em 1.5em;
-    align-items: center;
-    flex: 1;  
+    align-items: center; 
 }
+
 /*Left Side*/
 .preview-image{
     height: 25em;
@@ -20,7 +20,6 @@
     height: 100%;
     width: auto;
 }
-
 .reviews{
     position: absolute;
     right: 2%;
@@ -54,7 +53,6 @@ h2{
     font-size: 2.5em;
     font-weight: normal;
 }
-
 .option-buttons{
     display: flex;
 }
@@ -70,17 +68,19 @@ h2{
 .selected{
     outline: 0.1em solid #FFB703;
 }
-
 .right-column fieldset{
     position: relative;
     overflow: hidden;
     transition: height 0.5s;
 }
 .not-extended{
-    height: 15em; /*Must be a numerical value for transition to work. Can't be auto*/
+    height: 18em; /*Must be a numerical value for transition to work. Can't be auto*/
 }
-.extended{
+.body-extended{
     height: 25em;
+}
+.camera-extended{
+    height: 30em;
 }
 fieldset .extend-button{
     text-align: center;
@@ -93,7 +93,9 @@ fieldset .extend-button{
     right:0;
     background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(0,0,0,0));;
 }
-
+.hidden{
+    display: none;
+}
 .purchase-button{
     background-color: #FFB703;
     color: #000000;
