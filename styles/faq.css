@@ -19,18 +19,28 @@ th, td {
     text-align: left; 
     font-size: xx-large;
     padding: 8px; 
-    cursor: pointer;
 } 
+
+summary{
+    cursor: pointer;
+}
   
 tr:nth-child(even) { 
     background-color: rgb(235, 235, 235); 
 } 
 
+.faq-answer{
+    font-size: x-large;
+    padding: 8px; 
+}
+
 summary {list-style: none}
 summary::-webkit-details-marker {display: none; }
 
 details summary::before { 
-    content:url('../images/Arrow-right.svg')
+    content:url('../images/Arrow-right.svg');
+    display: inline-block;
+    width: 1.5em;
     /* you can style it however you want, use background-image for example */
 }
 
