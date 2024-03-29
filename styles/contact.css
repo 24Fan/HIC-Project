@@ -1,0 +1,66 @@
+/* Contact Stylesheet */
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+hr{
+    width: 100%;
+}
+
+/* Columns and Text & Image Alignment */
+.column{
+    float: left;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    padding: 0.1em;
+    position: relative;
+}
+
+.text{
+    text-align: center;
+    margin: 1 auto;
+    font-size: 2em;
+    font-weight: normal;
+    float: left;
+}
+
+/* Additional Support Text */
+.h3-support{
+    text-align: center;
+    margin: 1 auto;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Live Chat Button */
+.live-chat{
+    background-color: #FFB703;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    outline: 0.1em solid #000000;
+    height: auto;
+    width: auto;
+    margin: 0.5em auto;
+    transition-duration: 0.3s;
+    display: block;
+    padding: 5px 40px;
+}
+
+.live-chat:hover{
+    background-color: #c78f00;
+}
