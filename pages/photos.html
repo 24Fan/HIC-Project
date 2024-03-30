@@ -37,9 +37,70 @@
             <hr class="header-rule">
         </nav>
     </header>
-    
     <div style="flex:1;">
-        <!--Buffer at bottom for taller screens-->
+        <!--Buffer to fill out screen-->
+    </div>
+    <div style="display: flex; align-items: center;">
+        <div class="main-photo">
+            <img id="main-photo" src="../images/image_body_front.png"  alt="Camera Body Front View">
+        </div>
+        <div style="width: 45%; margin-bottom: 2em; margin-right: 1em;">
+            <h1 style="text-align: center; font-size: 2.5em;"> Options </h1>
+            <div class="option-buttons">
+                <div class="button selected" id="body-only">Body Only</div>
+                <div class="button" id="body-extra">Body With RF24-105mm F4-7.1 IS STM Lens Kit </div>
+            </div>
+            <hr style="margin: 1em auto; width: 100%;">
+            <div class="preview-image-container" id="body-images">
+                <div class="preview-image selected" id="b1">
+                    <img src="../images/image_body_front.png"  alt="Camera Body Front View">
+                </div>
+                <div class="preview-image" id="b2">
+                    <img src="../images/image_body_front_2.png"  alt="Camera Body Front View">
+                </div>
+                <div class="preview-image" id="b3">
+                    <img src="../images/image_body_top.png"  alt="Camera Body Front View">
+                </div>
+                <div class="preview-image" id="b4">
+                    <img src="../images/image_back.png"  alt="Camera Body Back View">
+                </div>
+                <div class="preview-image" id="b5">
+                    <img src="../images/image_back_2.png"  alt="Camera Body Back View">
+                </div>
+                <div class="preview-image" id="b6">
+                    <img src="../images/image_body_accessories.png"  alt="Camera Body With Included Accessories">
+                </div>
+            </div>
+            <div class="preview-image-container hidden" id="camera-images">
+                <div class="preview-image" id="c1">
+                    <img src="../images/image_camera_front.png"  alt="Camera Front View">
+                </div>
+                <div class="preview-image" id="c2">
+                    <img src="../images/image_back.png"  alt="Camera Back View">
+                </div>
+                <div class="preview-image" id="c3">
+                    <img src="../images/image_back_2.png"  alt="Camera Back View">
+                </div>
+                <div class="preview-image" id="c4">
+                    <img src="../images/image_camera_top.png"  alt="Camera Top View">
+                </div>
+                <div class="preview-image" id="c5">
+                    <img src="../images/image_camera_accessories.png"  alt="Camera With Included Accessories">
+                </div>
+                <div class="preview-image" id="c6">
+                    <img src="../images/image_lens_front.png"  alt="Camera Lens Front">
+                </div>
+                <div class="preview-image" id="c7">
+                    <img src="../images/image_lens_top.png"  alt="Camera Lens Top">
+                </div>
+                <div class="preview-image" id="c8">
+                    <img src="../images/image_lens_bottom.png"  alt="Camera Lens Bottom">
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div style="flex:1;">
+        <!--Buffer to fill out screen-->
     </div>
     <footer>
         <div class="footer-links">

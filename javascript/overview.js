@@ -14,8 +14,8 @@ var cameraPrice = document.getElementById('camera-price');
 // Get preview image to be altered
 var previewImage = document.getElementById('preview-image');
 
-// Button Select Behavior
-function handleButtonClick(selectedButton, hiddenDetails, visibleDetails, hiddenPrice, visiblePrice, imageSrc) {
+// Option Select Function
+function optionSelect(selectedButton, hiddenDetails, visibleDetails, hiddenPrice, visiblePrice, imageSrc) {
   button1.classList.remove("selected");
   button2.classList.remove("selected");
   selectedButton.classList.add("selected");
@@ -33,11 +33,11 @@ function handleButtonClick(selectedButton, hiddenDetails, visibleDetails, hidden
 }
 
 button1.addEventListener("click", function() {
-  handleButtonClick(button1, cameraDetails, bodyDetails, cameraPrice, bodyPrice, "images/image_body_front.png");
+  optionSelect(button1, cameraDetails, bodyDetails, cameraPrice, bodyPrice, "images/image_body_front.png");
 });
 
 button2.addEventListener("click", function() {
-  handleButtonClick(button2, bodyDetails, cameraDetails, bodyPrice, cameraPrice, "images/image_camera_front.png");
+  optionSelect(button2, bodyDetails, cameraDetails, bodyPrice, cameraPrice, "images/image_camera_front.png");
 });
 
 
