@@ -59,6 +59,10 @@ h3{
     padding: 0.5em;
     font-size: 1em;
 }
+.description-head{
+    outline: 0.1em solid #000000; 
+    padding: 0.5em;
+}
 
 
 .right-column{
