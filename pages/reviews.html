@@ -37,6 +37,89 @@
             <hr class="header-rule">
         </nav>
     </header>
+
+    <!-- Main Content -->
+    <!-- Top Row -->
+    <div class="flex-center" id="top-row">
+        <div class="column" id="top-left-col">
+            <p>Canon EOS RP</p>
+        </div>
+        <div class="column" id="top-middle-col">
+            <p>Customer Rating</p>
+            <p class="stars">
+                ★ ★ ★ ★ ☆
+            </p>
+        </div>
+        <div class="column" id="top-right-col">
+            <p>Breakdown</p>
+        </div>
+    </div>
+    
+    <!-- Middle Row -->
+    <div class="flex-center" id="middle-row">
+        <div class="column" id="middle-left-col">
+            <p>Customer Reviews</p>
+        </div>
+        <div class="column" id="middle-middle-col">
+            <button type="button">
+                <span>Write A Review</span>
+            </button>
+        </div>
+        <div class="column" id="middle-right-col">
+            <form>
+                <label for="ratings">Ratings</label>
+                <select id="ratings" name="ratings">
+                    <option value="All">All</option>
+                    <option value="5">5★</option>
+                    <option value="4">4★</option>
+                    <option value="3">3★</option>
+                    <option value="2">2★</option>
+                    <option value="1">1★</option>
+                </select>
+                
+                <label id="recommended-form" for="sort">Sort By</label>
+                <select id="sort" name="sort">
+                    <option value="recommended">Recommended</option>
+                    <option value="best">Best First</option>
+                    <option value="worst">Worst First</option>
+
+                </select>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="flex-column" id="bottom-row">
+        <!-- Bottom Row Content -->
+        <div id="review-form" style="display: none;">
+            <form id="reviewForm">
+                <label>Star Rating:</label>
+                <input type="radio" id="starRating-1" name="starRating" value="1star">
+                <label for="starRating-1">1★</label>
+                <input type="radio" id="starRating-2" name="starRating" value="2star">
+                <label for="starRating-2">2★</label>
+                <input type="radio" id="starRating-3" name="starRating" value="3star">
+                <label for="starRating-3">3★</label>
+                <input type="radio" id="starRating-4" name="starRating" value="4star">
+                <label for="starRating-4">4★</label>
+                <input type="radio" id="starRating-5" name="starRating" value="5star">
+                <label for="starRating-5">5★</label><br/>
+
+                <label for="nameCaption">Name:</label>
+                <input type="text" id="nameCaption" name="nameCaption">
+                <label for="reviewHeader">Review Header:</label>
+                <input type="text" id="reviewHeader" name="reviewHeader">
+                <label for="reviewText">Write Your Review:</label>
+                <textarea id="reviewText" name="reviewText"></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+        <div id="reviews-container">
+            <!-- Reviews will be displayed here -->
+        </div>
+    </div>
+    <!-- End of Main Content -->
+
     
     <div style="flex:1;">
         <!--Buffer at bottom for taller screens-->

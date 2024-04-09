@@ -89,3 +89,24 @@ footer{
     border: 0.01em solid #8ECAE6;
     margin: 0;
 }
+
+/*----------Structure----------*/
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
