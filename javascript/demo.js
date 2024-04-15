@@ -49,9 +49,9 @@ function tutorialSelect (selectedTutorial, selectedDescription, videoSrc) {
 // Handle clicking on tutorial options
 t1.addEventListener("click", function() { tutorialSelect(t1, DescriptionT1, "https://www.youtube.com/embed/5G38Q9r0oaU"); });
 t2.addEventListener("click", function() { tutorialSelect(t2, DescriptionT2, "https://www.youtube.com/embed/MpF3rutTxVQ"); });
-t3.addEventListener("click", function() { tutorialSelect(t3, DescriptionT3, ); });
-t4.addEventListener("click", function() { tutorialSelect(t4, DescriptionT4, ); });
-a1.addEventListener("click", function() { tutorialSelect(a1, DescriptionA1, ); });
-a2.addEventListener("click", function() { tutorialSelect(a2, DescriptionA2, ); });
-a3.addEventListener("click", function() { tutorialSelect(a3, DescriptionA3, ); });
-a4.addEventListener("click", function() { tutorialSelect(a4, DescriptionA4, ); });
+t3.addEventListener("click", function() { tutorialSelect(t3, DescriptionT3, "https://www.youtube.com/embed/foEW7osSHj0"); });
+t4.addEventListener("click", function() { tutorialSelect(t4, DescriptionT4, "https://www.youtube.com/embed/gQq1BS0RWYw"); });
+a1.addEventListener("click", function() { tutorialSelect(a1, DescriptionA1, "https://www.youtube.com/embed/Gxeozna5O1s"); });
+a2.addEventListener("click", function() { tutorialSelect(a2, DescriptionA2, "https://www.youtube.com/embed/t1BAyl6xwJw"); });
+a3.addEventListener("click", function() { tutorialSelect(a3, DescriptionA3, "https://www.youtube.com/embed/0v1NHrVwzLw"); });
+a4.addEventListener("click", function() { tutorialSelect(a4, DescriptionA4, "https://www.youtube.com/embed/QXQUQH3FKD0"); });
