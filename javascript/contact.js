@@ -9,10 +9,8 @@ function chat() {
 
 // live chat functionality
 chatButton.addEventListener("click", function() {
+    var now = new Date();
+    var timestamp = now.toLocaleString();
+    document.getElementById("timestamp").innerHTML = timestamp;
     chat();
 });
-
-// timestamp for chat messages
-var now = new Date();
-var timestamp = now.toLocaleString();
-document.getElementById("timestamp").innerHTML = timestamp;
