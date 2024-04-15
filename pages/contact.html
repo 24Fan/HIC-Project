@@ -102,29 +102,30 @@
             </a> 
         </p>
 
-        <a class="live-chat" href="contact.html">
-            Live Chat with a Support Agent
-        </a>
+        <div id="live-chat-button">
+            <button class="live-chat">
+                Live Chat with a Support Agent
+            </button>
+        </div>
 
         <div style="flex:1;">
             <!--Buffer fill out screen-->
         </div>
 
+        <div id="chat-window" style="display:none">
         <fieldset style = "text-align: left;">
             <legend>Live Support Chat</legend>
                 <p style = "text-align: left; margin:0;">
-                    <span style="color: #FB8500">Support at 10:06:13</span> - Thank you for contacting the support team! A representative will assist you shortly. In the meantime, please let us know how we can help by typing your message below and clicking the send icon (the paper airplane in the bottom right).  
-                </p>
-                <p style = "text-align: left; margin:0;">
-                    <span style="color: #219EBC">You at 10:06:42</span> - I am having issues entering my payment information on the purchase screen.
+                    <span style="color: #FB8500">Support on </span><span style="color: #FB8500" id="timestamp">Support on </span> - Thank you for contacting the support team! A representative will assist you shortly. In the meantime, please let us know how we can help by typing your message below and hitting "enter".  
                 </p>
                 <hr style = "background-color: black;height: 0px;width: 100%;">
                 <form action="/action_page.php">
-                    <input type="text" id="fname" name="fname" value="Type your message here..." size="100" style="border:none; font-size:14px;">
+                    <input type="text" id="fname" name="fname" placeholder="Type your message here..." size="100" style="border:none; font-size:14px;">
                 </form>
                 
                 
         </fieldset>  
+        </div>
     </div>
 
     

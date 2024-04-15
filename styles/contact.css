@@ -46,6 +46,7 @@ hr{
 /* Live Chat Button */
 .live-chat{
     background-color: #FFB703;
+    border: 0;
     color: #000000;
     text-align: center;
     text-decoration: none;

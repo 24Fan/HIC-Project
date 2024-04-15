@@ -53,6 +53,9 @@ h2{
     font-size: 2.5em;
     font-weight: normal;
 }
+li{
+	font-size: 1.1em;	
+}
 .option-buttons{
     display: flex;
 }
@@ -93,6 +96,7 @@ fieldset .extend-button{
     right:0;
     background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(0,0,0,0));;
 }
+
 .hidden{
     display: none;
 }
