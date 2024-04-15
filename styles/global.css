@@ -104,9 +104,41 @@ footer{
 .flex-column {
     display: flex;
     flex-direction: column;
+
+}
+
+.border {
+    border: black solid 1px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ml-15 {
+    margin-left: 15px;
 }
 
 .ml-10 {
     margin-left: 10px;
 }
 
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.m-5 {
+    margin: 5px;
+}

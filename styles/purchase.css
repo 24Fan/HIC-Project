@@ -1,0 +1,44 @@
+#left-col {
+    margin-left: 15px;
+}
+
+#card-type-input-box {
+    border: solid black 1px;
+}
+
+#paypal-box {
+    border: solid black 1px;
+
+}
+
+#card-type-input-box label {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#paypal-box label {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#credit-debit-info-box {
+    border: solid black 1px;
+
+}
+
+#card-info-input {
+    /* placeholder */
+}
+
+#card-images {
+    height: 45px;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#credit-debit-info-box img {
+    padding-right: 10px;
+}
