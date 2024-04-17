@@ -89,29 +89,36 @@
     </div>
 
     <!-- Bottom Row -->
-    <div class="flex-column" id="bottom-row">
+    <div class="flex-column m-5" id="bottom-row">
         <!-- Bottom Row Content -->
         <div id="review-form" style="display: none;">
             <form id="reviewForm">
-                <label>Star Rating:</label>
-                <input type="radio" id="starRating-1" name="starRating" value="1star">
-                <label for="starRating-1">1★</label>
-                <input type="radio" id="starRating-2" name="starRating" value="2star">
-                <label for="starRating-2">2★</label>
-                <input type="radio" id="starRating-3" name="starRating" value="3star">
-                <label for="starRating-3">3★</label>
-                <input type="radio" id="starRating-4" name="starRating" value="4star">
-                <label for="starRating-4">4★</label>
-                <input type="radio" id="starRating-5" name="starRating" value="5star">
-                <label for="starRating-5">5★</label><br/>
+                <div class="mb-5">
+                    <label>Rating:</label>
+                    <input type="radio" id="starRating-1" name="starRating" value="1star">
+                    <label for="starRating-1">1★</label>
+                    <input type="radio" id="starRating-2" name="starRating" value="2star">
+                    <label for="starRating-2">2★</label>
+                    <input type="radio" id="starRating-3" name="starRating" value="3star">
+                    <label for="starRating-3">3★</label>
+                    <input type="radio" id="starRating-4" name="starRating" value="4star">
+                    <label for="starRating-4">4★</label>
+                    <input type="radio" id="starRating-5" name="starRating" value="5star">
+                    <label for="starRating-5">5★</label><br/>
+                </div>
 
-                <label for="nameCaption">Name:</label>
-                <input type="text" id="nameCaption" name="nameCaption">
-                <label for="reviewHeader">Review Header:</label>
-                <input type="text" id="reviewHeader" name="reviewHeader">
-                <label for="reviewText">Write Your Review:</label>
-                <textarea id="reviewText" name="reviewText"></textarea>
-                <button type="submit">Submit Review</button>
+                <div class="flex-column">
+                    <div class="mb-5">
+                        <input type="text" id="nameCaption" name="nameCaption" placeholder="Your Name">
+                    </div>
+                    <div class="mb-5">
+                        <input type="text" id="reviewHeader" name="reviewHeader" placeholder="Subject">
+                    </div>
+                    <div class="mb-5">
+                        <textarea id="reviewText" name="reviewText" placeholder="Description" maxlength="5000"></textarea>
+                    </div>
+                    <button id="submit-review-button" class="mb-5" type="submit">Submit Review</button>
+                </div>
             </form>
         </div>
         <div id="reviews-container">

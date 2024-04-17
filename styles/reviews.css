@@ -54,6 +54,21 @@
     cursor: pointer;
 }
 
+#review-form button {
+    border: black solid 1px;
+    border-radius: 4px;
+    background-color: #FFB703;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+#review-form button:hover {
+    background-color: #f3ae00;
+    cursor: pointer;
+}
+
 #middle-middle-col button span {
     margin-left: 30px;
     margin-right: 30px;
@@ -101,4 +116,19 @@
 .text-section {
     font-size: x-large;
     color: #363636;
+}
+
+input {
+    font-size: 16pt;
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+#review-form {
+    font-size: 16pt;
 }
