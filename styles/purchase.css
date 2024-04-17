@@ -104,9 +104,49 @@ input{
     outline: 0.1em solid #000000;
     height: 2em;
     width: 30%;
-
     transition-duration: 0.3s;
     display: block;
     overflow: hidden;
     cursor: pointer;
+}
+
+.screen-darken{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+.order-confirmation{
+    height: 4em;
+    width: 8em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 1em;
+    border: 0.05em solid #000000;
+    border-radius: 10px;
+    display: block; 
+    text-align: center;
+    align-content: space-around;
+    font-size: 2em;
+    font-weight: bold;
+}
+.confirmation-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.confirmation-text .link-button{
+    font-size: 0.5em;
+    width: 100%; 
+}
+
+.hidden{
+    display: none
 }

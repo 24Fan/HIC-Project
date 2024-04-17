@@ -523,7 +523,9 @@
                         <p>I agree to this website's terms and conditions</p>
                     </div>
                 </div>
-                <div class="link-button" style="width: 100%;">Confirm Order</div>
+                <div class="link-button" style="width: 100%;" id="confirm-button">
+                    Confirm Order
+                </div>
             </div>
         </div>
 
@@ -543,6 +545,21 @@
             <hr class = "footer-rule">
         </div>
     </footer>
+
+    <div class="screen-darken hidden" id="confirmation-menu">
+        <div class="order-confirmation">
+            <div class="confirmation-text" id="processing">
+                Processing...
+            </div>
+            <div class="confirmation-text hidden" id="complete">
+                Order Confirmed!
+                <div class="link-button" id="continue-button">
+                    Continue
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="../javascript/purchase.js"></script>
 </body>
 </html>

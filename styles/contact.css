@@ -61,6 +61,7 @@ hr{
     transition-duration: 0.3s;
     display: block;
     padding: 5px 40px;
+    cursor: pointer;
 }
 
 .live-chat:hover{

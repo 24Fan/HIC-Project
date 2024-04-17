@@ -53,16 +53,19 @@ h3{
     font-size: 1.5em;
     font-weight: normal;
 }
-.description{
-    outline: 0.1em solid #000000;
-    vertical-align: center;
-    padding: 70px 0;
-    /* padding: 0.5em; */
-    font-size: 1.5em;
-}
 .description-head{
     outline: 0.1em solid #000000; 
     padding: 0.5em;
+}
+.description{
+    outline: 0.1em solid #000000;
+    display: block;
+    align-content: space-around;
+    /* padding: 70px 0; */
+    padding: 0.25em;
+    min-height: 12em;
+    font-size: 1.5em;
+    
 }
 
 

@@ -76,14 +76,14 @@ li{
     overflow: hidden;
     transition: height 0.5s;
 }
-.not-extended{
+.not-extended{  /* Unextended height of description fieldsets */
     height: 18em; /*Must be a numerical value for transition to work. Can't be auto*/
 }
-.body-extended{
-    height: 25em;
+.body-extended{ /* Extended height of "Body Only" description fieldset */
+    height: 26.5em;
 }
-.camera-extended{
-    height: 30em;
+.camera-extended{ /* Extended height of "Body With RF24..." description fieldset */
+    height: 27.5em;
 }
 fieldset .extend-button{
     text-align: center;
