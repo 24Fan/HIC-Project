@@ -32,10 +32,18 @@
     display: block;
     text-align: center;
 }
+.button:hover{
+    background-color: #EBEBEB; 
+    transition-duration: 0.2s;
+}
 
 .preview-image-container{
     display: flex; 
     flex-wrap: wrap;
+}
+.preview-image:hover{
+    background-color: #EBEBEB; 
+    transition-duration: 0.2s;
 }
 .preview-image{
     padding: 0.5em;

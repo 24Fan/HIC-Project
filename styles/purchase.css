@@ -109,6 +109,9 @@ input{
     overflow: hidden;
     cursor: pointer;
 }
+.link-button:hover{
+    background-color: #c78f00;
+}
 
 .screen-darken{
     position: fixed;

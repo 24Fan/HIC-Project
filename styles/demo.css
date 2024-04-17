@@ -41,6 +41,9 @@ h1{
     display: block;
     overflow: hidden;
 }
+.link-button:hover{
+    background-color: #c78f00;
+}
 h2{
     text-align: center;
     margin: 0.1em auto;
@@ -91,14 +94,14 @@ tr{
     cursor: pointer;
 }
 tr:nth-child(even) { 
-    background-color: rgb(245, 245, 245); 
+    background-color: #F5F5F5; 
 } 
 tr:hover{
-    background-color: rgb(215, 215, 215); 
+    background-color: #D7D7D7; 
     transition-duration: 0.2s;
 }
 .selected-cell{
-    background-color: rgb(200, 200, 200); 
+    background-color: #C8C8C8; 
 }
 .hidden{
     display: none;

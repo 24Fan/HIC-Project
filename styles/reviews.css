@@ -47,10 +47,10 @@
     background-color: #FFB703;
     font-size: 22pt;
     display: flex;
+    transition-duration: 0.3s;
 }
-
 #middle-middle-col button:hover {
-    background-color: #f3ae00;
+    background-color: #c78f00;
     cursor: pointer;
 }
 
@@ -62,10 +62,10 @@
     display: flex;
     justify-content: center;
     width: 200px;
+    transition-duration: 0.3s;
 }
-
 #review-form button:hover {
-    background-color: #f3ae00;
+    background-color: #c78f00;
     cursor: pointer;
 }
 
