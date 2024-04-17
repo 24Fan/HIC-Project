@@ -1,14 +1,17 @@
+h2{
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+
 #left-col {
     margin-left: 15px;
+    width: 23%;
+    min-width: 13em;
 }
 
-#card-type-input-box {
+#card-type-input-box, #paypal-box {
     border: solid black 1px;
-}
-
-#paypal-box {
-    border: solid black 1px;
-
+    padding: 0.4em;
 }
 
 #card-type-input-box label {
@@ -23,15 +26,24 @@
 
 #credit-debit-info-box {
     border: solid black 1px;
-
+    padding: 0.4em;
+    height: inherit;
+    flex: 1;
 }
 
 #card-info-input {
-    /* placeholder */
+    margin-bottom: 0.5em;
 }
 
 #card-images {
     height: 45px;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+}
+#card-images img {
+    display: block;
+    max-width: 25%;
 }
 
 label {
@@ -39,6 +51,67 @@ label {
     font-weight: bold;
 }
 
-#credit-debit-info-box img {
-    padding-right: 10px;
+
+#middle-col {
+    width: 54%;
+    min-width: 20em;
+}
+.input-textarea {
+    height: 10em;
+    resize: none;
+    font-family: calibri;
+}
+input{
+    font-family: calibri;
+}
+
+
+#right-col {
+    width: 20.5%;
+    min-width: 18em;
+}
+.order-item{
+    display: flex;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 0.1em;
+    margin: 0.2em;
+    justify-content: space-between;
+}
+.fee{
+    display: flex;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 0.1em;
+    margin: 0.2em;
+    justify-content: space-between;
+}
+.fee p{
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+.agreement{
+    display: flex;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 0.1em;
+    margin: 0.2em;
+    justify-content: space-between;
+}
+.link-button{
+    background-color: #FFB703;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 0.9em;
+    font-weight: bold;
+    outline: 0.1em solid #000000;
+    height: 2em;
+    width: 30%;
+
+    transition-duration: 0.3s;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
 }
