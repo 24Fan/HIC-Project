@@ -1,58 +1,53 @@
+label {
+    font-size: larger;
+    font-weight: bold;
+}
 h2{
     margin-top: 0.5em;
     margin-bottom: 0.25em;
 }
 
-#left-col {
+.left-col {
     margin-left: 15px;
     width: 23%;
     min-width: 13em;
 }
 
-#card-type-input-box, #paypal-box {
+.card-type-input-box, .paypal-box {
     border: solid black 1px;
     padding: 0.4em;
 }
 
-#card-type-input-box label {
+.card-type-input-box label, .paypal-box label {
     padding-left: 60px;
     padding-right: 60px;
 }
 
-#paypal-box label {
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-#credit-debit-info-box {
+.credit-debit-info-box {
     border: solid black 1px;
     padding: 0.4em;
     height: inherit;
     flex: 1;
 }
 
-#card-info-input {
+.card-info-input {
     margin-bottom: 0.5em;
 }
 
-#card-images {
+.card-images {
     height: 45px;
     width: 100%;
     justify-content: space-around;
     margin-bottom: 0.5em;
 }
-#card-images img {
+.card-images img {
     display: block;
     max-width: 25%;
 }
 
-label {
-    font-size: larger;
-    font-weight: bold;
-}
 
 
-#middle-col {
+.middle-col {
     width: 54%;
     min-width: 20em;
 }
@@ -66,7 +61,7 @@ input{
 }
 
 
-#right-col {
+.right-col {
     width: 20.5%;
     min-width: 18em;
 }

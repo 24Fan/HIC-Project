@@ -41,29 +41,29 @@
     <!------------ Main Content ------------->
     <div class="flex">
         <!-- Left Column -->
-        <div class="flex-column" id="left-col">
+        <div class="left-col flex-column">
             <h2>Payment Method</h2>
-            <div id="card-type-input-box">
+            <div class="card-type-input-box">
                 <input type="radio" id="card-type" name="payment-type" value="creditOrDebit">
                 <label for="card-type">Credit/Debit Card</label>
             </div>
-            <div id="paypal-box">
+            <div class="paypal-box">
                 <input type="radio" id="paypal" name="payment-type" value="paypal">
                 <label for="paypal">Paypal</label>
             </div>
-            <div id="credit-debit-info-box" class="flex-column">
+            <div class="credit-debit-info-box flex-column">
                 <label>Credit/Debit Card</label>
-                <div class="flex" id="card-images">
+                <div class="card-images flex">
                     <img src="../images/visa.svg" alt="visa"/>
                     <img src="../images/american-express.svg" alt="american express">
                     <img src="../images/mastercard.svg" alt="mastercard">
                     <img src="../images/discover.svg" alt="discover">
                 </div>
-                <div class="flex-column" id="card-info-input">
+                <div class="card-info-input flex-column">
                     <label for="card-number">Card number</label>
                     <input type="text" id="card-number" name="card-number">    
                 </div>
-                <div class="flex-column" id="card-info-input">
+                <div class="card-info-input flex-column">
                     <label for="cardholder-name">Cardholder name</label>
                     <input type="text" id="cardholder-name" name="cardholder-name">
                 </div>
@@ -92,7 +92,7 @@
         </div>
         
         <!-- Middle Column -->
-        <div class="flex-column ml-5" id="middle-col">
+        <div class="middle-col flex-column ml-5">
             <h2>Shipping Details</h2>
             <div class="flex-column border" style="flex: 1;">
                 <div class="flex-column m-5" style="flex: 1;">
@@ -118,7 +118,6 @@
                         </div>
                     </div>
 
-                    
                     <div class="flex" style="flex-wrap: wrap; overflow: hidden;">
                         <div class="flex-column">
                             <label>Delivery Address</label>
@@ -459,8 +458,8 @@
             </div>
         </div>
 
-        <!-- Right Column-->
-        <div class="flex-column" id="right-col">
+        <!-- Right Column -->
+        <div class="right-col flex-column">
             <h2>Your Order</h2>
             <div class="flex-column border ml-5" style="flex: 1; padding: 5px;">
                 <label>Review Your Order</label>
