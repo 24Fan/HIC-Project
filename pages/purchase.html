@@ -61,7 +61,7 @@
                 </div>
                 <div class="card-info-input flex-column">
                     <label for="card-number">Card number</label>
-                    <input type="text" id="card-number" name="card-number">    
+                    <input type="text" id="card-number" name="card-number" pattern="[0-9]{13,19}" placeholder="xxxx xxxx xxxx xxxx" maxlength="19" onkeypress="return isNumber(event)">    
                 </div>
                 <div class="card-info-input flex-column">
                     <label for="cardholder-name">Cardholder name</label>
@@ -72,14 +72,14 @@
                         <div class="flex-column">
                             <label for="expo-date-num1">Expiration date</label>
                             <div class="flex">
-                                <input type="text" id="expo-date-num1" maxlength="2" size="2" name="expo-date-num1" class="mr-5">
+                                <input type="text" id="expo-date-num1" placeholder="MM" maxlength="2" size="2" name="expo-date-num1" class="mr-5" onkeypress="return isNumber(event)">
                                 <span>/</span>
-                                <input type="text" id="expo-date-num2" maxlength="2" size="2" name="expo-date-num2" class="ml-5">
+                                <input type="text" id="expo-date-num2" placeholder="YY" maxlength="2" size="2" name="expo-date-num2" class="ml-5" onkeypress="return isNumber(event)">
                             </div>
                         </div>
                         <div class="flex-column ml-15" id="security-code-box">
                             <label for="security-code">Security code</label>
-                            <input type="text" id="security-code" maxlength="3" size="3" name="security-code">
+                            <input type="text" id="security-code" maxlength="3" size="3" name="security-code" placeholder="xxx" onkeypress="return isNumber(event)">
                         </div>
                     </div>
                 </div>
@@ -435,18 +435,18 @@
                         </div>
                         <div class="flex-column mb-5 mt-5 mr-5">
                             <label for="city">Zip Code</label>
-                            <input type="text" id="zip-code" name="zip-code">
+                            <input type="text" id="zip-code" name="zip-code" placeholder="xxxxx" onkeypress="return isNumber(event)">
                         </div>
                     </div>
 
                     <div class="flex-column mb-5 mt-5 mr-5">
                         <label for="address-1">Address Line 1</label>
-                        <input type="text" id="address-1" name="address-1">
+                        <input type="text" id="address-1" placeholder="Street number and name" name="address-1">
                     </div>
 
                     <div class="flex-column mb-5 mt-5 mr-5">
                         <label for="address-2">Address Line 2</label>
-                        <input type="text" id="address-2" name="address-2">
+                        <input type="text" id="address-2" placeholder="Appartment, suite, PO box (optional)" name="address-2">
                     </div>
 
                     <div style="flex: 1;"></div>
