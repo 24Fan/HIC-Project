@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: calibri;
+    overflow-y: scroll; /* Always show scroll bar to avoid page resizing itself */
 }
 
 
