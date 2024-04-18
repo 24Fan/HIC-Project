@@ -27,3 +27,12 @@ function closeOrder() {
 // Handle clicking on "Confirm Order" button
 confirm_button.addEventListener("click", function() { confirmOrder(); });
 continue_button.addEventListener("click", function() { closeOrder(); });
+
+// Validate numeric input in certain fields
+function isNumber(evt) {
+    var charCode = (evt.which) ? evt.which : event.keyCode;
+    if ((charCode < 48 || charCode > 57))
+        return false;
+
+    return true;
+}
