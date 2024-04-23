@@ -1,8 +1,12 @@
 # Project Part 2 - Group 7
 James A. Markijohn
+
 Albaraa Alluhaibi
+
 Zach Arnett
+
 John Krizan
+
 Joshua Lopez
 -------------------------
 # Contents
