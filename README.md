@@ -9,6 +9,8 @@ John Krizan
 
 Joshua Lopez
 
+Link to Repository: https://github.com/24Fan/HIC-Project/
+
 -------------------------
 ## Contents
 1. An **index.html** file, which will be used to launch the website locally.
