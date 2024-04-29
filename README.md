@@ -18,9 +18,9 @@ Link to Repository: https://github.com/24Fan/HIC-Project/
 3. A folder containing **Balsamiq wireframes** that demonstrate what the website should look like.
 
 ## Instructions for Local Execution
-1. **Extract** all files in this folder to a directory of your choosing.
+1. **Extract** or **move** all files in this folder to a directory of your choosing.
 2. Open the **index.html** file.
-3. The sight should now be **fully navigable**.
+3. The site should now be **fully navigable**.
 
 ## Possible Issues
 1. If a page's **HTML file is not found**, check that all HTML files are located in the pages/ subdirectory.
